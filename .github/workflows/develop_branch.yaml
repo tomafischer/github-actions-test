@@ -1,0 +1,9 @@
+name: pullrequest
+on: [pull_request]
+
+jobs:
+  run-on-pullrequest:
+    runs-on: ubuntu-latest
+    steps:
+    - name: echo
+      run: echo "Pull request was triggered"
