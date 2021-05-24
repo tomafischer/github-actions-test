@@ -23,5 +23,7 @@ jobs:
       - name: Direcotry Poweshell
         run: Get-Location
       - name: Dirtory bash
-        run: pwd
+        run: |
+          pwd
+          ls -al
         shell: bash 
