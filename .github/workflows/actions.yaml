@@ -18,8 +18,8 @@ jobs:
        run: |
          mkdir myclone
          cd myclone
-         git clone tomafischer@github.com:$GITHUB_REPOSITORY
-         git checkout $GITHUB_SHA
+#         git clone tomafischer@github.com:$GITHUB_REPOSITORY
+#         git checkout $GITHUB_SHA
      - name: Checkout my stuff
        uses: actions/checkout@v2
 
