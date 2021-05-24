@@ -1,0 +1,12 @@
+name: testbranch action
+on : [push]
+
+jobs:
+  run-simple:
+    runs-on: ubuntu-latest
+    steps:
+     - name: testrun  
+       run: echo "hello world"
+    
+
+  
