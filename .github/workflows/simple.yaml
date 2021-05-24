@@ -1,6 +1,8 @@
 name: Shell Commands
 
-on: [push]
+on:
+ push: 
+  branches: [testbranch]
 
 jobs: 
   run-shell-command: 
