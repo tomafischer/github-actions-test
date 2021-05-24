@@ -1,7 +1,11 @@
 name: Action Workflow
 
-on: [push]
-
+#on: [push]
+on:
+  push:
+   branches: [testbranch]
+    
+   
 jobs:
   run-github-actions:
     runs-on: ubuntu-latest
