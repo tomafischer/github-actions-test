@@ -1,0 +1,13 @@
+name: test Workflow
+
+on:
+  push:
+    branches:
+      - 'test**' #*matches features testbranch but not test/
+
+jobs:
+  run-test-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo step
+        run: echo "tom"
